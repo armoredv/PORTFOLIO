@@ -1,0 +1,120 @@
+*{
+	margin: 0px;
+	padding: 0 px;
+	font-family: 'Black And White Picture', sans-serif;
+}
+.tm-page1{
+	background-image: url('homeim.jpg');
+	background-size: cover;
+}
+@keyframes anim1{
+	0% {color:white} ;
+	50%{color: rgb(173, 113, 78)};
+	100%{color:rgb(239, 2, 26)};
+
+
+}
+ul{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background: rgb(221, 166, 122);
+	list-style-type: none;
+
+}
+
+
+.tm-header::after
+{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+
+
+.tm-container
+{
+	/*max-width: 1200px;*/
+	margin: 0 auto;
+	
+}
+.tm-nav ul li{
+	
+	float:left;
+	padding-right: 10%;
+
+
+
+}
+.tm-nav ul li a:hover
+{
+	color: white;
+	background: black;
+	font-size: 40px;
+	height: auto;
+}
+
+.tm-nav ul li a{
+	display: block;
+	color:rgb(214, 102, 10);
+	font-size: 20px;
+	padding: 10px
+	text-decoration: none;
+	line-height: 100px;
+
+
+
+
+}
+.tm-logo{
+	float: left;
+	border-radius: 50%;
+}
+/*SECOND PART CODE */
+.tm-image{
+	max-width: 1200px;
+	margin: 0 auto;
+	border-style: dashed;
+    border-radius: 20px;
+	margin-top: 50px;
+
+	
+
+}
+.tm-section
+{	color: white;
+	max-width: 1200px;
+	margin: 0 auto;
+	animation-name: anim1;
+	animation-duration: 4s;
+	position: relative;
+	animation-iteration-count:infinite;
+	
+	font-size: 50px;
+	width:800px;
+	
+}
+.tm-section:hover
+{
+	color:rgb(82, 81, 91);
+}
+/*THIRD AND THE LAST PART*/
+.tm-footer{
+	background: black;
+	
+}
+.tm-last
+{
+	font-family: 'Akronim', cursive;
+	color: white;
+	margin-left:   45%;
+	font-size: 40px;
+
+}
+.tm-image:hover{
+	color: white;
+}
+
+	
+

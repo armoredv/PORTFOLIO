@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin:0;
+	background-color: #a7cde2;
+	font-family: 'Black And White Picture', sans-serif;
+}
+
+li{
+	
+	float: left;
+
+}
+ul{
+	background-color:#dddddd;
+	overflow: hidden;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	
+}	
+	
+
+li a{
+
+	display:block;
+	text-decoration: none;
+	padding: 20px;
+	color: black;
+	background-color:#dddddd;
+	width: 100%;
+	border:2px solid black; 
+
+	
+
+
+	
+	
+}
+li a:hover{
+	color: white;
+	background-color: black;
+}
+.active{
+	background: #37a004;
+
+}

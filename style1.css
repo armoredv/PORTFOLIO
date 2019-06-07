@@ -1,0 +1,121 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Black And White Picture', sans-serif;
+}
+.tm-header
+{
+	
+	background: rgb(221, 166, 122);
+}
+.tm-header::after
+{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+
+
+.tm-container
+{
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
+.tm-nav ul li{
+	display: inline-block;
+	float: right;
+
+
+}
+.tm-nav ul li a:hover
+{
+	color: black;
+}
+
+.tm-nav ul li a{
+	color:rgb(214, 102, 10);
+	font-size: 25px;
+	padding: 50px 50px;
+	text-decoration: none;
+	line-height: 100px;
+
+
+}
+.tm-logo{
+	float: left;
+	border-radius: 50%;
+}
+/*2nd PART code */
+.page2
+{
+	background: url('homeim2.jpg');
+	background-size: cover;
+
+}
+.tm-section
+{
+	max-width: 1200px;
+
+	margin: 0 auto;
+	font-size: 50px;
+	margin-top: 300px;
+	margin-left: 400px;
+	margin-bottom: 250px;
+
+
+}
+
+.tm-section:hover
+{
+	color: rgb(12, 4, 107);
+}
+
+
+.page3
+{
+	background: url('ach.jpg');
+	background-size: cover;
+}
+.page4
+{
+	background: url('acadim.jpg');
+	background-size: cover;
+}
+.page5
+{
+	background: url('contactim2.jpg');
+	background-size: cover;
+}
+.tm_contact
+{	max-width: 1200px;
+
+	margin: 0 auto;
+	font-size: 50px;
+	margin-top: 300px;
+	margin-left: 400px;
+	margin-bottom: 250px;
+}
+h1
+{	
+	font-size: 80px;
+}
+/*third part code*/
+.tm-footer{
+	background: black;
+	
+}
+.tm-last
+{
+	font-family: 'Akronim', cursive;
+	color: white;
+	margin-left:   45%;
+	font-size: 40px;
+	margin-bottom: 0px;
+
+}
+.tm-contact a{
+	text-decoration: none;
+}
